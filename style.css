@@ -129,10 +129,6 @@
 .whatIsAdsManagement h2 {
     font-size: 34px;
     font-weight: normal;
-}
-
-.whatIsAdsManagement h2 span {
-    font-weight: bold;
     color: #000;
 }
 
@@ -141,7 +137,7 @@
     font-size: 20px;
 }
 
-.whatIsAdsManagement span {
+.whatIsAdsManagement h2 span {
     font-weight: bold;
     color: #d90416;
 }
@@ -154,7 +150,7 @@
     background-color: #000;
 }
 
-.container_3,
+.container_3 h2,
 .container_5 h2 {
     padding-top: 50px;
     font-size: 40px;
@@ -162,13 +158,13 @@
     color: #fff;
 }
 
-.container_3,
+.container_3 span,
 .container_5 span {
     font-weight: bold;
     color: #d90416;
 }
 
-.container_3,
+.container_3 button,
 .container_5 button {
     margin-top: 80px;
 }
