@@ -1,0 +1,301 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap);
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Poppins, sans-serif;
+}
+
+.container_1 {
+    background-color: #000;
+    min-height: 60vh;
+    height:auto;
+}
+
+.presentation {
+    min-height: 60vh;
+    height: auto;
+    max-width: 90vw;
+    margin-left: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.presentation img {
+    margin-top: 30px;
+    width: 100px;
+    height: 100px;
+}
+
+.presentation h1 {
+    padding: 30px 0;
+    color: #fff;
+    font-size: 60px;
+    font-weight: 800;
+    letter-spacing: 8px;
+    line-height: 65px;
+}
+
+.presentation p{
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.presentation span {
+    font-weight: bold;
+    color: #d90416;
+}
+
+.contactButton {
+    margin: 30px;
+    font-weight: 600;
+    font-size: 16px;
+    background-color: #BF0426;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    height: 45px;
+    width: 180px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.contactButton:hover {
+    background-color: #730217;
+}
+
+.container_2 {
+    background-color: #fff;
+    min-height: 50vh;
+    height:auto;
+}
+
+@media (max-width: 1024px) {
+    .contactButtonDesktop {
+        display: none;
+    }
+    .whatIs {
+        min-height: 50vh;
+        height: auto;
+        max-width: 90vw;
+        margin-left: 5vw;
+        text-align: center;
+    }
+    
+}
+
+@media (min-width: 1024px) {
+    .contactButtonMobile {
+        display: none;
+    }
+    .whatIs {
+        min-height: 55vh;
+        height: auto;
+        max-width: 90vw;
+        margin-left: 5vw;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        text-align: center;
+    }
+}
+
+.showAds {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.showAds img {
+    max-width: 95%;
+}
+
+.whatIsAdsManagement {
+    margin: 30px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 95%;
+    margin-left: 2.5vw;
+}
+
+.whatIsAdsManagement h2 {
+    font-size: 34px;
+    font-weight: normal;
+}
+
+.whatIsAdsManagement h2 span {
+    font-weight: bold;
+    color: #000;
+}
+
+.whatIsAdsManagement p {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.whatIsAdsManagement span {
+    font-weight: bold;
+    color: #d90416;
+}
+
+.container_3,
+.container_5 {
+    text-align: center;
+    min-height: 60vh;
+    height:auto;
+    background-color: #000;
+}
+
+.container_3,
+.container_5 h2 {
+    padding-top: 50px;
+    font-size: 40px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.container_3,
+.container_5 span {
+    font-weight: bold;
+    color: #d90416;
+}
+
+.container_3,
+.container_5 button {
+    margin-top: 80px;
+}
+
+@media (max-width: 1024px) {
+    .jobs {
+        margin: 0 auto;
+        color: #fff;
+        margin: 0 5vw;
+    }
+    .jobsDescription h3 {  
+        height: 70px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .jobs {
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        color: #fff;
+        margin: 0 5vw;
+    }
+    .jobsDescription {  
+        padding: 0 15px;
+        width: 22.5vw;
+    }
+    .jobsDescription h3 {  
+        height: 70px;
+    }
+}
+
+@media (max-width: 1280px) and (min-width: 1024px) {
+    .jobs {
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        color: #fff;
+        margin: 0 5vw;
+    }
+    .jobsDescription {  
+        padding: 0 15px;
+        width: 22.5vw;
+    }
+    .jobsDescription h3 {  
+        height: 100px;
+    }
+}
+
+.jobsDescription i {
+    padding-top: 50px;
+    font-size: 50px;
+    color: #d90416;
+}
+
+.jobsDescription h3{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.jobsDescription p {
+    vertical-align: top;
+    font-size: 16px;
+    font-weight: 400;
+    color: #D7D7D7;
+}
+
+@media (min-width: 1024px) {
+    .container_4 {
+        min-height: 55vh;
+        height: auto;
+        max-width: 90vw;
+        margin-left: 5vw;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 1024px) {
+    .container_4 {
+        min-height: 55vh;
+        height: auto;
+        max-width: 90vw;
+        margin-left: 5vw;
+        text-align: center;
+    }
+}
+
+.personalPresentation {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.personalPresentation h2 {
+    font-size: 34px;
+    font-weight: 400;
+}
+
+.personalPresentation span {
+    font-weight: bold;
+}
+
+.personalPresentation p {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.danielImage {
+    margin: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.danielImage img {
+    width: auto;
+    height: auto;
+    max-width: 400px;
+    max-height: 400px;
+}
+
+footer {
+    padding-top: 30px;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+}
+
